@@ -1,0 +1,37 @@
+[6.363s] Invoking command in '/home/soda/VLAA/src/action_executor_node': PYTHONPATH=/home/soda/VLAA/build/action_executor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soda/VLAA/install/action_executor_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/action_executor_node build --build-base /home/soda/VLAA/build/action_executor_node/build install --record /home/soda/VLAA/build/action_executor_node/install.log --single-version-externally-managed install_data
+[7.277s] running egg_info
+[7.278s] creating ../../build/action_executor_node/action_executor_node.egg-info
+[7.472s] writing ../../build/action_executor_node/action_executor_node.egg-info/PKG-INFO
+[7.473s] writing dependency_links to ../../build/action_executor_node/action_executor_node.egg-info/dependency_links.txt
+[7.474s] writing entry points to ../../build/action_executor_node/action_executor_node.egg-info/entry_points.txt
+[7.474s] writing requirements to ../../build/action_executor_node/action_executor_node.egg-info/requires.txt
+[7.474s] writing top-level names to ../../build/action_executor_node/action_executor_node.egg-info/top_level.txt
+[7.475s] writing manifest file '../../build/action_executor_node/action_executor_node.egg-info/SOURCES.txt'
+[7.552s] reading manifest file '../../build/action_executor_node/action_executor_node.egg-info/SOURCES.txt'
+[7.553s] writing manifest file '../../build/action_executor_node/action_executor_node.egg-info/SOURCES.txt'
+[7.554s] running build
+[7.554s] running build_py
+[7.555s] creating /home/soda/VLAA/build/action_executor_node/build
+[7.555s] creating /home/soda/VLAA/build/action_executor_node/build/lib
+[7.555s] creating /home/soda/VLAA/build/action_executor_node/build/lib/action_executor_node
+[7.555s] copying action_executor_node/__init__.py -> /home/soda/VLAA/build/action_executor_node/build/lib/action_executor_node
+[7.556s] copying action_executor_node/action_executor_node.py -> /home/soda/VLAA/build/action_executor_node/build/lib/action_executor_node
+[7.556s] running install
+[7.569s] running install_lib
+[7.604s] creating /home/soda/VLAA/install/action_executor_node/lib/python3.10/site-packages/action_executor_node
+[7.605s] copying /home/soda/VLAA/build/action_executor_node/build/lib/action_executor_node/__init__.py -> /home/soda/VLAA/install/action_executor_node/lib/python3.10/site-packages/action_executor_node
+[7.605s] copying /home/soda/VLAA/build/action_executor_node/build/lib/action_executor_node/action_executor_node.py -> /home/soda/VLAA/install/action_executor_node/lib/python3.10/site-packages/action_executor_node
+[7.605s] byte-compiling /home/soda/VLAA/install/action_executor_node/lib/python3.10/site-packages/action_executor_node/__init__.py to __init__.cpython-310.pyc
+[7.606s] byte-compiling /home/soda/VLAA/install/action_executor_node/lib/python3.10/site-packages/action_executor_node/action_executor_node.py to action_executor_node.cpython-310.pyc
+[7.607s] running install_data
+[7.608s] creating /home/soda/VLAA/install/action_executor_node/share/ament_index
+[7.608s] creating /home/soda/VLAA/install/action_executor_node/share/ament_index/resource_index
+[7.608s] creating /home/soda/VLAA/install/action_executor_node/share/ament_index/resource_index/packages
+[7.608s] copying resource/action_executor_node -> /home/soda/VLAA/install/action_executor_node/share/ament_index/resource_index/packages
+[7.608s] copying package.xml -> /home/soda/VLAA/install/action_executor_node/share/action_executor_node
+[7.608s] running install_egg_info
+[7.649s] Copying ../../build/action_executor_node/action_executor_node.egg-info to /home/soda/VLAA/install/action_executor_node/lib/python3.10/site-packages/action_executor_node-0.0.0-py3.10.egg-info
+[7.650s] running install_scripts
+[7.792s] Installing action_executor_node script to /home/soda/VLAA/install/action_executor_node/lib/action_executor_node
+[7.793s] writing list of installed files to '/home/soda/VLAA/build/action_executor_node/install.log'
+[8.146s] Invoked command in '/home/soda/VLAA/src/action_executor_node' returned '0': PYTHONPATH=/home/soda/VLAA/build/action_executor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soda/VLAA/install/action_executor_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/action_executor_node build --build-base /home/soda/VLAA/build/action_executor_node/build install --record /home/soda/VLAA/build/action_executor_node/install.log --single-version-externally-managed install_data

@@ -1,0 +1,21 @@
+[4.922s] Invoking command in '/home/soda/VLAA/src/vla_node': PYTHONPATH=/home/soda/VLAA/build/vla_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soda/VLAA/install/vla_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vla_node build --build-base /home/soda/VLAA/build/vla_node/build install --record /home/soda/VLAA/build/vla_node/install.log --single-version-externally-managed install_data
+[5.860s] running egg_info
+[5.902s] writing ../../build/vla_node/vla_node.egg-info/PKG-INFO
+[5.902s] writing dependency_links to ../../build/vla_node/vla_node.egg-info/dependency_links.txt
+[5.902s] writing entry points to ../../build/vla_node/vla_node.egg-info/entry_points.txt
+[5.903s] writing requirements to ../../build/vla_node/vla_node.egg-info/requires.txt
+[5.903s] writing top-level names to ../../build/vla_node/vla_node.egg-info/top_level.txt
+[5.984s] reading manifest file '../../build/vla_node/vla_node.egg-info/SOURCES.txt'
+[5.985s] writing manifest file '../../build/vla_node/vla_node.egg-info/SOURCES.txt'
+[5.986s] running build
+[5.986s] running build_py
+[5.986s] running install
+[5.995s] running install_lib
+[6.037s] running install_data
+[6.037s] running install_egg_info
+[6.079s] removing '/home/soda/VLAA/install/vla_node/lib/python3.10/site-packages/vla_node-0.0.0-py3.10.egg-info' (and everything under it)
+[6.080s] Copying ../../build/vla_node/vla_node.egg-info to /home/soda/VLAA/install/vla_node/lib/python3.10/site-packages/vla_node-0.0.0-py3.10.egg-info
+[6.081s] running install_scripts
+[6.235s] Installing vla_node script to /home/soda/VLAA/install/vla_node/lib/vla_node
+[6.236s] writing list of installed files to '/home/soda/VLAA/build/vla_node/install.log'
+[6.374s] Invoked command in '/home/soda/VLAA/src/vla_node' returned '0': PYTHONPATH=/home/soda/VLAA/build/vla_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soda/VLAA/install/vla_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vla_node build --build-base /home/soda/VLAA/build/vla_node/build install --record /home/soda/VLAA/build/vla_node/install.log --single-version-externally-managed install_data

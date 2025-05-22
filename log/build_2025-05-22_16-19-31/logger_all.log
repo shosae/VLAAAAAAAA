@@ -1,0 +1,306 @@
+[0.208s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.209s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffadf68610>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffadf68040>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffadf68040>>, mixin_verb=('build',))
+[0.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.708s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/soda/VLAA'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_executor_node) by extensions ['ignore', 'ignore_ament_install']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_executor_node) by extension 'ignore'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_executor_node) by extension 'ignore_ament_install'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_executor_node) by extensions ['colcon_pkg']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_executor_node) by extension 'colcon_pkg'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_executor_node) by extensions ['colcon_meta']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_executor_node) by extension 'colcon_meta'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_executor_node) by extensions ['ros']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_executor_node) by extension 'ros'
+[0.741s] DEBUG:colcon.colcon_core.package_identification:Package 'src/action_executor_node' with type 'ros.ament_python' and name 'action_executor_node'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch) by extension 'ignore'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch) by extension 'ignore_ament_install'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch) by extensions ['colcon_pkg']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch) by extension 'colcon_pkg'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch) by extensions ['colcon_meta']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch) by extension 'colcon_meta'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch) by extensions ['ros']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch) by extension 'ros'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch) by extensions ['cmake', 'python']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch) by extension 'cmake'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch) by extension 'python'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch) by extensions ['python_setup_py']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch) by extension 'python_setup_py'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch/launch) by extension 'ignore'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch/launch) by extension 'ignore_ament_install'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch/launch) by extensions ['colcon_pkg']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch/launch) by extension 'colcon_pkg'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch/launch) by extensions ['colcon_meta']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch/launch) by extension 'colcon_meta'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch/launch) by extensions ['ros']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch/launch) by extension 'ros'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch/launch) by extensions ['cmake', 'python']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch/launch) by extension 'cmake'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch/launch) by extension 'python'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch/launch) by extensions ['python_setup_py']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_launch/launch) by extension 'python_setup_py'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pub) by extension 'ignore'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pub) by extension 'ignore_ament_install'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pub) by extensions ['colcon_pkg']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pub) by extension 'colcon_pkg'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pub) by extensions ['colcon_meta']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pub) by extension 'colcon_meta'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pub) by extensions ['ros']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pub) by extension 'ros'
+[0.746s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_pub' with type 'ros.ament_python' and name 'camera_pub'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_controller) by extension 'ignore'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_controller) by extension 'ignore_ament_install'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_controller) by extensions ['colcon_pkg']
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_controller) by extension 'colcon_pkg'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_controller) by extensions ['colcon_meta']
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_controller) by extension 'colcon_meta'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_controller) by extensions ['ros']
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_controller) by extension 'ros'
+[0.748s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omni_controller' with type 'ros.ament_python' and name 'omni_controller'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_node) by extensions ['ignore', 'ignore_ament_install']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_node) by extension 'ignore'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_node) by extension 'ignore_ament_install'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_node) by extensions ['colcon_pkg']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_node) by extension 'colcon_pkg'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_node) by extensions ['colcon_meta']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_node) by extension 'colcon_meta'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_node) by extensions ['ros']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/vla_node) by extension 'ros'
+[0.750s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vla_node' with type 'ros.ament_python' and name 'vla_node'
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.785s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/soda/VLAA/install
+[0.786s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/soda/ros2_ws/install
+[0.788s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 283 installed packages in /opt/ros/humble
+[0.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'action_executor_node' build argument 'cmake_args' from command line to 'None'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'action_executor_node' build argument 'cmake_target' from command line to 'None'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'action_executor_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'action_executor_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'action_executor_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'action_executor_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'action_executor_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'action_executor_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.854s] Level 5:colcon.colcon_core.verb:set package 'action_executor_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.854s] DEBUG:colcon.colcon_core.verb:Building package 'action_executor_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/soda/VLAA/build/action_executor_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/soda/VLAA/install/action_executor_node', 'merge_install': False, 'path': '/home/soda/VLAA/src/action_executor_node', 'symlink_install': False, 'test_result_base': None}
+[0.854s] Level 5:colcon.colcon_core.verb:set package 'camera_pub' build argument 'cmake_args' from command line to 'None'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'camera_pub' build argument 'cmake_target' from command line to 'None'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'camera_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'camera_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'camera_pub' build argument 'cmake_clean_first' from command line to 'False'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'camera_pub' build argument 'cmake_force_configure' from command line to 'False'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'camera_pub' build argument 'ament_cmake_args' from command line to 'None'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'camera_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'camera_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.855s] DEBUG:colcon.colcon_core.verb:Building package 'camera_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/soda/VLAA/build/camera_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/soda/VLAA/install/camera_pub', 'merge_install': False, 'path': '/home/soda/VLAA/src/camera_pub', 'symlink_install': False, 'test_result_base': None}
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'omni_controller' build argument 'cmake_args' from command line to 'None'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'omni_controller' build argument 'cmake_target' from command line to 'None'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'omni_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'omni_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'omni_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'omni_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'omni_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'omni_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'omni_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.856s] DEBUG:colcon.colcon_core.verb:Building package 'omni_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/soda/VLAA/build/omni_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/soda/VLAA/install/omni_controller', 'merge_install': False, 'path': '/home/soda/VLAA/src/omni_controller', 'symlink_install': False, 'test_result_base': None}
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'vla_node' build argument 'cmake_args' from command line to 'None'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'vla_node' build argument 'cmake_target' from command line to 'None'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'vla_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'vla_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'vla_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'vla_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'vla_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'vla_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'vla_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.857s] DEBUG:colcon.colcon_core.verb:Building package 'vla_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/soda/VLAA/build/vla_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/soda/VLAA/install/vla_node', 'merge_install': False, 'path': '/home/soda/VLAA/src/vla_node', 'symlink_install': False, 'test_result_base': None}
+[0.857s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.859s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.859s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/soda/VLAA/src/action_executor_node' with build type 'ament_python'
+[0.860s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_executor_node', 'ament_prefix_path')
+[0.864s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/VLAA/install/action_executor_node/share/action_executor_node/hook/ament_prefix_path.ps1'
+[0.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soda/VLAA/install/action_executor_node/share/action_executor_node/hook/ament_prefix_path.dsv'
+[0.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/VLAA/install/action_executor_node/share/action_executor_node/hook/ament_prefix_path.sh'
+[0.868s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.868s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.875s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/soda/VLAA/src/camera_pub' with build type 'ament_python'
+[0.876s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_pub', 'ament_prefix_path')
+[0.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/VLAA/install/camera_pub/share/camera_pub/hook/ament_prefix_path.ps1'
+[0.877s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soda/VLAA/install/camera_pub/share/camera_pub/hook/ament_prefix_path.dsv'
+[0.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/VLAA/install/camera_pub/share/camera_pub/hook/ament_prefix_path.sh'
+[0.879s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.879s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.885s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/soda/VLAA/src/omni_controller' with build type 'ament_python'
+[0.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_controller', 'ament_prefix_path')
+[0.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/VLAA/install/omni_controller/share/omni_controller/hook/ament_prefix_path.ps1'
+[0.887s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soda/VLAA/install/omni_controller/share/omni_controller/hook/ament_prefix_path.dsv'
+[0.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/VLAA/install/omni_controller/share/omni_controller/hook/ament_prefix_path.sh'
+[0.889s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.889s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.894s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/soda/VLAA/src/vla_node' with build type 'ament_python'
+[0.895s] Level 1:colcon.colcon_core.shell:create_environment_hook('vla_node', 'ament_prefix_path')
+[0.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/VLAA/install/vla_node/share/vla_node/hook/ament_prefix_path.ps1'
+[0.896s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soda/VLAA/install/vla_node/share/vla_node/hook/ament_prefix_path.dsv'
+[0.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/VLAA/install/vla_node/share/vla_node/hook/ament_prefix_path.sh'
+[0.899s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.899s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.686s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/soda/VLAA/src/action_executor_node'
+[1.686s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.686s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.461s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/soda/VLAA/src/camera_pub'
+[2.461s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.461s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.239s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/soda/VLAA/src/omni_controller'
+[3.240s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.240s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.004s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/soda/VLAA/src/vla_node'
+[4.004s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.004s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soda/VLAA/src/vla_node': PYTHONPATH=/home/soda/VLAA/build/vla_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soda/VLAA/install/vla_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vla_node build --build-base /home/soda/VLAA/build/vla_node/build install --record /home/soda/VLAA/build/vla_node/install.log --single-version-externally-managed install_data
+[5.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soda/VLAA/src/action_executor_node': PYTHONPATH=/home/soda/VLAA/build/action_executor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soda/VLAA/install/action_executor_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/action_executor_node build --build-base /home/soda/VLAA/build/action_executor_node/build install --record /home/soda/VLAA/build/action_executor_node/install.log --single-version-externally-managed install_data
+[5.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soda/VLAA/src/omni_controller': PYTHONPATH=/home/soda/VLAA/build/omni_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soda/VLAA/install/omni_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/omni_controller build --build-base /home/soda/VLAA/build/omni_controller/build install --record /home/soda/VLAA/build/omni_controller/install.log --single-version-externally-managed install_data
+[5.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soda/VLAA/src/camera_pub': PYTHONPATH=/home/soda/VLAA/build/camera_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soda/VLAA/install/camera_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_pub build --build-base /home/soda/VLAA/build/camera_pub/build install --record /home/soda/VLAA/build/camera_pub/install.log --single-version-externally-managed install_data
+[6.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soda/VLAA/src/omni_controller' returned '0': PYTHONPATH=/home/soda/VLAA/build/omni_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soda/VLAA/install/omni_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/omni_controller build --build-base /home/soda/VLAA/build/omni_controller/build install --record /home/soda/VLAA/build/omni_controller/install.log --single-version-externally-managed install_data
+[6.926s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/omni_controller' for CMake module files
+[6.927s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/omni_controller' for CMake config files
+[6.928s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/omni_controller/lib'
+[6.928s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/omni_controller/bin'
+[6.928s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/omni_controller/lib/pkgconfig/omni_controller.pc'
+[6.929s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/omni_controller/lib/python3.10/site-packages'
+[6.929s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_controller', 'pythonpath')
+[6.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/VLAA/install/omni_controller/share/omni_controller/hook/pythonpath.ps1'
+[6.930s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soda/VLAA/install/omni_controller/share/omni_controller/hook/pythonpath.dsv'
+[6.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/VLAA/install/omni_controller/share/omni_controller/hook/pythonpath.sh'
+[6.932s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/omni_controller/bin'
+[6.932s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omni_controller)
+[6.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/VLAA/install/omni_controller/share/omni_controller/package.ps1'
+[6.934s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soda/VLAA/install/omni_controller/share/omni_controller/package.dsv'
+[6.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/VLAA/install/omni_controller/share/omni_controller/package.sh'
+[6.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/VLAA/install/omni_controller/share/omni_controller/package.bash'
+[6.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/VLAA/install/omni_controller/share/omni_controller/package.zsh'
+[6.940s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soda/VLAA/install/omni_controller/share/colcon-core/packages/omni_controller)
+[6.943s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/action_executor_node' for CMake module files
+[6.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soda/VLAA/src/action_executor_node' returned '0': PYTHONPATH=/home/soda/VLAA/build/action_executor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soda/VLAA/install/action_executor_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/action_executor_node build --build-base /home/soda/VLAA/build/action_executor_node/build install --record /home/soda/VLAA/build/action_executor_node/install.log --single-version-externally-managed install_data
+[6.944s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/action_executor_node' for CMake config files
+[6.945s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/action_executor_node/lib'
+[6.945s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/action_executor_node/bin'
+[6.945s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/action_executor_node/lib/pkgconfig/action_executor_node.pc'
+[6.946s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/action_executor_node/lib/python3.10/site-packages'
+[6.946s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_executor_node', 'pythonpath')
+[6.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/VLAA/install/action_executor_node/share/action_executor_node/hook/pythonpath.ps1'
+[6.947s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soda/VLAA/install/action_executor_node/share/action_executor_node/hook/pythonpath.dsv'
+[6.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/VLAA/install/action_executor_node/share/action_executor_node/hook/pythonpath.sh'
+[6.949s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/action_executor_node/bin'
+[6.949s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_executor_node)
+[6.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/VLAA/install/action_executor_node/share/action_executor_node/package.ps1'
+[6.950s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soda/VLAA/install/action_executor_node/share/action_executor_node/package.dsv'
+[6.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/VLAA/install/action_executor_node/share/action_executor_node/package.sh'
+[6.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/VLAA/install/action_executor_node/share/action_executor_node/package.bash'
+[6.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/VLAA/install/action_executor_node/share/action_executor_node/package.zsh'
+[6.953s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soda/VLAA/install/action_executor_node/share/colcon-core/packages/action_executor_node)
+[6.954s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/vla_node' for CMake module files
+[6.955s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/vla_node' for CMake config files
+[6.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soda/VLAA/src/vla_node' returned '0': PYTHONPATH=/home/soda/VLAA/build/vla_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soda/VLAA/install/vla_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vla_node build --build-base /home/soda/VLAA/build/vla_node/build install --record /home/soda/VLAA/build/vla_node/install.log --single-version-externally-managed install_data
+[6.957s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/vla_node/lib'
+[6.957s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/vla_node/bin'
+[6.957s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/vla_node/lib/pkgconfig/vla_node.pc'
+[6.957s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/vla_node/lib/python3.10/site-packages'
+[6.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('vla_node', 'pythonpath')
+[6.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/VLAA/install/vla_node/share/vla_node/hook/pythonpath.ps1'
+[6.959s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soda/VLAA/install/vla_node/share/vla_node/hook/pythonpath.dsv'
+[6.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/VLAA/install/vla_node/share/vla_node/hook/pythonpath.sh'
+[6.960s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/vla_node/bin'
+[6.960s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vla_node)
+[6.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/VLAA/install/vla_node/share/vla_node/package.ps1'
+[6.962s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soda/VLAA/install/vla_node/share/vla_node/package.dsv'
+[6.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/VLAA/install/vla_node/share/vla_node/package.sh'
+[6.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/VLAA/install/vla_node/share/vla_node/package.bash'
+[6.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/VLAA/install/vla_node/share/vla_node/package.zsh'
+[6.964s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soda/VLAA/install/vla_node/share/colcon-core/packages/vla_node)
+[6.968s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/camera_pub' for CMake module files
+[6.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soda/VLAA/src/camera_pub' returned '0': PYTHONPATH=/home/soda/VLAA/build/camera_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soda/VLAA/install/camera_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_pub build --build-base /home/soda/VLAA/build/camera_pub/build install --record /home/soda/VLAA/build/camera_pub/install.log --single-version-externally-managed install_data
+[6.969s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/camera_pub' for CMake config files
+[6.970s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/camera_pub/lib'
+[6.970s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/camera_pub/bin'
+[6.970s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/camera_pub/lib/pkgconfig/camera_pub.pc'
+[6.970s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/camera_pub/lib/python3.10/site-packages'
+[6.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_pub', 'pythonpath')
+[6.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/VLAA/install/camera_pub/share/camera_pub/hook/pythonpath.ps1'
+[6.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soda/VLAA/install/camera_pub/share/camera_pub/hook/pythonpath.dsv'
+[6.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/VLAA/install/camera_pub/share/camera_pub/hook/pythonpath.sh'
+[6.973s] Level 1:colcon.colcon_core.environment:checking '/home/soda/VLAA/install/camera_pub/bin'
+[6.973s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_pub)
+[6.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/VLAA/install/camera_pub/share/camera_pub/package.ps1'
+[6.974s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soda/VLAA/install/camera_pub/share/camera_pub/package.dsv'
+[6.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/VLAA/install/camera_pub/share/camera_pub/package.sh'
+[6.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/VLAA/install/camera_pub/share/camera_pub/package.bash'
+[6.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/VLAA/install/camera_pub/share/camera_pub/package.zsh'
+[6.977s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soda/VLAA/install/camera_pub/share/colcon-core/packages/camera_pub)
+[6.977s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.978s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.978s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.978s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.986s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.987s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.987s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.071s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.071s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/soda/VLAA/install/local_setup.ps1'
+[7.073s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/soda/VLAA/install/_local_setup_util_ps1.py'
+[7.075s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/soda/VLAA/install/setup.ps1'
+[7.077s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/soda/VLAA/install/local_setup.sh'
+[7.078s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/soda/VLAA/install/_local_setup_util_sh.py'
+[7.079s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/soda/VLAA/install/setup.sh'
+[7.081s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/soda/VLAA/install/local_setup.bash'
+[7.081s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/soda/VLAA/install/setup.bash'
+[7.083s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/soda/VLAA/install/local_setup.zsh'
+[7.084s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/soda/VLAA/install/setup.zsh'

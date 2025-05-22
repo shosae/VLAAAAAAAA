@@ -1,0 +1,5 @@
+  File "/home/soda/VLAA/install/camera_pub/lib/python3.10/site-packages/camera_pub/camera_publisher_node.py", line 17
+    "nvarguscamerasrc ! video/x-raw(memory:NVMM), width=1280, height=720, "
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+

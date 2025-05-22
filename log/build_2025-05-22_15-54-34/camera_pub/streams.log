@@ -1,0 +1,24 @@
+[4.603s] Invoking command in '/home/soda/VLAA/src/camera_pub': PYTHONPATH=/home/soda/VLAA/build/camera_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soda/VLAA/install/camera_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_pub build --build-base /home/soda/VLAA/build/camera_pub/build install --record /home/soda/VLAA/build/camera_pub/install.log --single-version-externally-managed install_data
+[5.459s] running egg_info
+[5.500s] writing ../../build/camera_pub/camera_pub.egg-info/PKG-INFO
+[5.501s] writing dependency_links to ../../build/camera_pub/camera_pub.egg-info/dependency_links.txt
+[5.502s] writing entry points to ../../build/camera_pub/camera_pub.egg-info/entry_points.txt
+[5.502s] writing requirements to ../../build/camera_pub/camera_pub.egg-info/requires.txt
+[5.502s] writing top-level names to ../../build/camera_pub/camera_pub.egg-info/top_level.txt
+[5.581s] reading manifest file '../../build/camera_pub/camera_pub.egg-info/SOURCES.txt'
+[5.582s] writing manifest file '../../build/camera_pub/camera_pub.egg-info/SOURCES.txt'
+[5.583s] running build
+[5.583s] running build_py
+[5.583s] copying camera_pub/camera_publisher_node.py -> /home/soda/VLAA/build/camera_pub/build/lib/camera_pub
+[5.583s] running install
+[5.591s] running install_lib
+[5.630s] copying /home/soda/VLAA/build/camera_pub/build/lib/camera_pub/camera_publisher_node.py -> /home/soda/VLAA/install/camera_pub/lib/python3.10/site-packages/camera_pub
+[5.631s] byte-compiling /home/soda/VLAA/install/camera_pub/lib/python3.10/site-packages/camera_pub/camera_publisher_node.py to camera_publisher_node.cpython-310.pyc
+[5.632s] running install_data
+[5.632s] running install_egg_info
+[5.673s] removing '/home/soda/VLAA/install/camera_pub/lib/python3.10/site-packages/camera_pub-0.0.0-py3.10.egg-info' (and everything under it)
+[5.673s] Copying ../../build/camera_pub/camera_pub.egg-info to /home/soda/VLAA/install/camera_pub/lib/python3.10/site-packages/camera_pub-0.0.0-py3.10.egg-info
+[5.675s] running install_scripts
+[5.822s] Installing camera_publisher_node script to /home/soda/VLAA/install/camera_pub/lib/camera_pub
+[5.822s] writing list of installed files to '/home/soda/VLAA/build/camera_pub/install.log'
+[5.977s] Invoked command in '/home/soda/VLAA/src/camera_pub' returned '0': PYTHONPATH=/home/soda/VLAA/build/camera_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soda/VLAA/install/camera_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_pub build --build-base /home/soda/VLAA/build/camera_pub/build install --record /home/soda/VLAA/build/camera_pub/install.log --single-version-externally-managed install_data

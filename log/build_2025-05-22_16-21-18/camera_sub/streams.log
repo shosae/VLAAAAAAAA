@@ -1,0 +1,37 @@
+[5.521s] Invoking command in '/home/soda/VLAA/src/camera_sub': PYTHONPATH=/home/soda/VLAA/build/camera_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soda/VLAA/install/camera_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_sub build --build-base /home/soda/VLAA/build/camera_sub/build install --record /home/soda/VLAA/build/camera_sub/install.log --single-version-externally-managed install_data
+[6.441s] running egg_info
+[6.442s] creating ../../build/camera_sub/camera_sub.egg-info
+[6.486s] writing ../../build/camera_sub/camera_sub.egg-info/PKG-INFO
+[6.488s] writing dependency_links to ../../build/camera_sub/camera_sub.egg-info/dependency_links.txt
+[6.489s] writing entry points to ../../build/camera_sub/camera_sub.egg-info/entry_points.txt
+[6.490s] writing requirements to ../../build/camera_sub/camera_sub.egg-info/requires.txt
+[6.491s] writing top-level names to ../../build/camera_sub/camera_sub.egg-info/top_level.txt
+[6.492s] writing manifest file '../../build/camera_sub/camera_sub.egg-info/SOURCES.txt'
+[6.584s] reading manifest file '../../build/camera_sub/camera_sub.egg-info/SOURCES.txt'
+[6.585s] writing manifest file '../../build/camera_sub/camera_sub.egg-info/SOURCES.txt'
+[6.586s] running build
+[6.586s] running build_py
+[6.587s] creating /home/soda/VLAA/build/camera_sub/build
+[6.587s] creating /home/soda/VLAA/build/camera_sub/build/lib
+[6.588s] creating /home/soda/VLAA/build/camera_sub/build/lib/camera_sub
+[6.588s] copying camera_sub/__init__.py -> /home/soda/VLAA/build/camera_sub/build/lib/camera_sub
+[6.589s] copying camera_sub/camera_subscriber_node.py -> /home/soda/VLAA/build/camera_sub/build/lib/camera_sub
+[6.589s] running install
+[6.599s] running install_lib
+[6.640s] creating /home/soda/VLAA/install/camera_sub/lib/python3.10/site-packages/camera_sub
+[6.640s] copying /home/soda/VLAA/build/camera_sub/build/lib/camera_sub/__init__.py -> /home/soda/VLAA/install/camera_sub/lib/python3.10/site-packages/camera_sub
+[6.640s] copying /home/soda/VLAA/build/camera_sub/build/lib/camera_sub/camera_subscriber_node.py -> /home/soda/VLAA/install/camera_sub/lib/python3.10/site-packages/camera_sub
+[6.641s] byte-compiling /home/soda/VLAA/install/camera_sub/lib/python3.10/site-packages/camera_sub/__init__.py to __init__.cpython-310.pyc
+[6.642s] byte-compiling /home/soda/VLAA/install/camera_sub/lib/python3.10/site-packages/camera_sub/camera_subscriber_node.py to camera_subscriber_node.cpython-310.pyc
+[6.643s] running install_data
+[6.644s] creating /home/soda/VLAA/install/camera_sub/share/ament_index
+[6.644s] creating /home/soda/VLAA/install/camera_sub/share/ament_index/resource_index
+[6.644s] creating /home/soda/VLAA/install/camera_sub/share/ament_index/resource_index/packages
+[6.644s] copying resource/camera_sub -> /home/soda/VLAA/install/camera_sub/share/ament_index/resource_index/packages
+[6.644s] copying package.xml -> /home/soda/VLAA/install/camera_sub/share/camera_sub
+[6.644s] running install_egg_info
+[6.694s] Copying ../../build/camera_sub/camera_sub.egg-info to /home/soda/VLAA/install/camera_sub/lib/python3.10/site-packages/camera_sub-0.0.0-py3.10.egg-info
+[6.694s] running install_scripts
+[6.845s] Installing camera_subscriber_node script to /home/soda/VLAA/install/camera_sub/lib/camera_sub
+[6.845s] writing list of installed files to '/home/soda/VLAA/build/camera_sub/install.log'
+[7.003s] Invoked command in '/home/soda/VLAA/src/camera_sub' returned '0': PYTHONPATH=/home/soda/VLAA/build/camera_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soda/VLAA/install/camera_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_sub build --build-base /home/soda/VLAA/build/camera_sub/build install --record /home/soda/VLAA/build/camera_sub/install.log --single-version-externally-managed install_data

@@ -1,0 +1,227 @@
+[0.000000] (-) TimerEvent: {}
+[0.000473] (action_executor_node) JobQueued: {'identifier': 'action_executor_node', 'dependencies': OrderedDict()}
+[0.000912] (camera_pub) JobQueued: {'identifier': 'camera_pub', 'dependencies': OrderedDict()}
+[0.001146] (omni_controller) JobQueued: {'identifier': 'omni_controller', 'dependencies': OrderedDict()}
+[0.001369] (vla_node) JobQueued: {'identifier': 'vla_node', 'dependencies': OrderedDict()}
+[0.001447] (action_executor_node) JobStarted: {'identifier': 'action_executor_node'}
+[0.015723] (camera_pub) JobStarted: {'identifier': 'camera_pub'}
+[0.023407] (omni_controller) JobStarted: {'identifier': 'omni_controller'}
+[0.030822] (vla_node) JobStarted: {'identifier': 'vla_node'}
+[0.099536] (-) TimerEvent: {}
+[0.200169] (-) TimerEvent: {}
+[0.300655] (-) TimerEvent: {}
+[0.401160] (-) TimerEvent: {}
+[0.501649] (-) TimerEvent: {}
+[0.602132] (-) TimerEvent: {}
+[0.702641] (-) TimerEvent: {}
+[0.803150] (-) TimerEvent: {}
+[0.903687] (-) TimerEvent: {}
+[1.004202] (-) TimerEvent: {}
+[1.104681] (-) TimerEvent: {}
+[1.205156] (-) TimerEvent: {}
+[1.305842] (-) TimerEvent: {}
+[1.406897] (-) TimerEvent: {}
+[1.507421] (-) TimerEvent: {}
+[1.607938] (-) TimerEvent: {}
+[1.708507] (-) TimerEvent: {}
+[1.809061] (-) TimerEvent: {}
+[1.909581] (-) TimerEvent: {}
+[2.010104] (-) TimerEvent: {}
+[2.110642] (-) TimerEvent: {}
+[2.211202] (-) TimerEvent: {}
+[2.311717] (-) TimerEvent: {}
+[2.412236] (-) TimerEvent: {}
+[2.513097] (-) TimerEvent: {}
+[2.613869] (-) TimerEvent: {}
+[2.714409] (-) TimerEvent: {}
+[2.814931] (-) TimerEvent: {}
+[2.915424] (-) TimerEvent: {}
+[3.015923] (-) TimerEvent: {}
+[3.116410] (-) TimerEvent: {}
+[3.216913] (-) TimerEvent: {}
+[3.317436] (-) TimerEvent: {}
+[3.417938] (-) TimerEvent: {}
+[3.518508] (-) TimerEvent: {}
+[3.619008] (-) TimerEvent: {}
+[3.719541] (-) TimerEvent: {}
+[3.820028] (-) TimerEvent: {}
+[3.920514] (-) TimerEvent: {}
+[4.021007] (-) TimerEvent: {}
+[4.121497] (-) TimerEvent: {}
+[4.222004] (-) TimerEvent: {}
+[4.322505] (-) TimerEvent: {}
+[4.422986] (-) TimerEvent: {}
+[4.523498] (-) TimerEvent: {}
+[4.623970] (-) TimerEvent: {}
+[4.724435] (-) TimerEvent: {}
+[4.824904] (-) TimerEvent: {}
+[4.925395] (-) TimerEvent: {}
+[5.025871] (-) TimerEvent: {}
+[5.126351] (-) TimerEvent: {}
+[5.226816] (-) TimerEvent: {}
+[5.327347] (-) TimerEvent: {}
+[5.427839] (-) TimerEvent: {}
+[5.528388] (-) TimerEvent: {}
+[5.628894] (-) TimerEvent: {}
+[5.729405] (-) TimerEvent: {}
+[5.829896] (-) TimerEvent: {}
+[5.930378] (-) TimerEvent: {}
+[6.030847] (-) TimerEvent: {}
+[6.131255] (-) TimerEvent: {}
+[6.231783] (-) TimerEvent: {}
+[6.332428] (-) TimerEvent: {}
+[6.361710] (action_executor_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/action_executor_node', 'build', '--build-base', '/home/soda/VLAA/build/action_executor_node/build', 'install', '--record', '/home/soda/VLAA/build/action_executor_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/soda/VLAA/src/action_executor_node', 'env': {'USER': 'soda', 'LC_TIME': 'ko_KR.UTF-8', 'SSH_CLIENT': '192.168.101.102 50598 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/soda', 'MOTD_SHOWN': 'pam', 'OLDPWD': '/home/soda', 'LESS': '-R', 'TERMINFO': '/home/soda/.terminfo', 'SSH_TTY': '/dev/pts/32', 'ZSH': '/home/soda/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ko_KR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'P9K_TTY': 'old', 'ROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/home/soda/ros2_ws/install', 'LOGNAME': 'soda', '_P9K_SSH_TTY': '/dev/pts/32', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '24', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/soda/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/cuda/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'ko_KR.UTF-8', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'LS_COLORS': 'no=00;38;5;244:rs=0:di=00;38;5;33:ln=01;38;5;37:mh=00:pi=48;5;230;38;5;136;01:so=48;5;230;38;5;136;01:do=48;5;230;38;5;136;01:bd=48;5;230;38;5;244;01:cd=48;5;230;38;5;244;01:or=48;5;235;38;5;160:su=48;5;160;38;5;230:sg=48;5;136;38;5;230:ca=30;41:tw=48;5;64;38;5;230:ow=48;5;235;38;5;33:st=48;5;33;38;5;230:ex=01;38;5;64:*.tar=00;38;5;61:*.tgz=01;38;5;61:*.arj=01;38;5;61:*.taz=01;38;5;61:*.lzh=01;38;5;61:*.lzma=01;38;5;61:*.tlz=01;38;5;61:*.txz=01;38;5;61:*.zip=01;38;5;61:*.zst=01;38;5;61:*.z=01;38;5;61:*.Z=01;38;5;61:*.dz=01;38;5;61:*.gz=01;38;5;61:*.lz=01;38;5;61:*.xz=01;38;5;61:*.bz2=01;38;5;61:*.bz=01;38;5;61:*.tbz=01;38;5;61:*.tbz2=01;38;5;61:*.tz=01;38;5;61:*.deb=01;38;5;61:*.rpm=01;38;5;61:*.jar=01;38;5;61:*.rar=01;38;5;61:*.ace=01;38;5;61:*.zoo=01;38;5;61:*.cpio=01;38;5;61:*.7z=01;38;5;61:*.rz=01;38;5;61:*.apk=01;38;5;61:*.gem=01;38;5;61:*.jpg=00;38;5;136:*.JPG=00;38;5;136:*.jpeg=00;38;5;136:*.gif=00;38;5;136:*.bmp=00;38;5;136:*.pbm=00;38;5;136:*.pgm=00;38;5;136:*.ppm=00;38;5;136:*.tga=00;38;5;136:*.xbm=00;38;5;136:*.xpm=00;38;5;136:*.tif=00;38;5;136:*.tiff=00;38;5;136:*.png=00;38;5;136:*.PNG=00;38;5;136:*.svg=00;38;5;136:*.svgz=00;38;5;136:*.mng=00;38;5;136:*.pcx=00;38;5;136:*.dl=00;38;5;136:*.xcf=00;38;5;136:*.xwd=00;38;5;136:*.yuv=00;38;5;136:*.cgm=00;38;5;136:*.emf=00;38;5;136:*.eps=00;38;5;136:*.CR2=00;38;5;136:*.ico=00;38;5;136:*.nef=00;38;5;136:*.NEF=00;38;5;136:*.webp=00;38;5;136:*.heic=00;38;5;136:*.HEIC=00;38;5;136:*.avif=00;38;5;136:*.tex=01;38;5;245:*.rdf=01;38;5;245:*.owl=01;38;5;245:*.n3=01;38;5;245:*.ttl=01;38;5;245:*.nt=01;38;5;245:*.torrent=01;38;5;245:*.xml=01;38;5;245:*Makefile=01;38;5;245:*Rakefile=01;38;5;245:*Dockerfile=01;38;5;245:*build.xml=01;38;5;245:*rc=01;38;5;245:*1=01;38;5;245:*.nfo=01;38;5;245:*README=01;38;5;245:*README.txt=01;38;5;245:*readme.txt=01;38;5;245:*.md=01;38;5;245:*README.markdown=01;38;5;245:*.ini=01;38;5;245:*.yml=01;38;5;245:*.cfg=01;38;5;245:*.conf=01;38;5;245:*.h=01;38;5;245:*.hpp=01;38;5;245:*.c=01;38;5;245:*.cpp=01;38;5;245:*.cxx=01;38;5;245:*.cc=01;38;5;245:*.objc=01;38;5;245:*.sqlite=01;38;5;245:*.go=01;38;5;245:*.lua=01;38;5;245:*.sql=01;38;5;245:*.csv=01;38;5;245:*.log=00;38;5;240:*.bak=00;38;5;240:*.aux=00;38;5;240:*.lof=00;38;5;240:*.lol=00;38;5;240:*.lot=00;38;5;240:*.out=00;38;5;240:*.toc=00;38;5;240:*.bbl=00;38;5;240:*.blg=00;38;5;240:*~=00;38;5;240:*#=00;38;5;240:*.part=00;38;5;240:*.incomplete=00;38;5;240:*.swp=00;38;5;240:*.tmp=00;38;5;240:*.temp=00;38;5;240:*.o=00;38;5;240:*.pyc=00;38;5;240:*.class=00;38;5;240:*.cache=00;38;5;240:*.aac=00;38;5;166:*.au=00;38;5;166:*.flac=00;38;5;166:*.mid=00;38;5;166:*.midi=00;38;5;166:*.mka=00;38;5;166:*.mp3=00;38;5;166:*.mpc=00;38;5;166:*.ogg=00;38;5;166:*.opus=00;38;5;166:*.ra=00;38;5;166:*.wav=00;38;5;166:*.m4a=00;38;5;166:*.axa=00;38;5;166:*.oga=00;38;5;166:*.spx=00;38;5;166:*.xspf=00;38;5;166:*.mov=01;38;5;166:*.MOV=01;38;5;166:*.mpg=01;38;5;166:*.mpeg=01;38;5;166:*.m2v=01;38;5;166:*.mkv=01;38;5;166:*.ogm=01;38;5;166:*.mp4=01;38;5;166:*.m4v=01;38;5;166:*.mp4v=01;38;5;166:*.vob=01;38;5;166:*.qt=01;38;5;166:*.nuv=01;38;5;166:*.wmv=01;38;5;166:*.asf=01;38;5;166:*.rm=01;38;5;166:*.rmvb=01;38;5;166:*.flc=01;38;5;166:*.avi=01;38;5;166:*.fli=01;38;5;166:*.flv=01;38;5;166:*.gl=01;38;5;166:*.m2ts=01;38;5;166:*.divx=01;38;5;166:*.webm=01;38;5;166:*.axv=01;38;5;166:*.anx=01;38;5;166:*.ogv=01;38;5;166:*.ogx=01;38;5;166:', 'AMENT_PREFIX_PATH': '/home/soda/ros2_ws/install/vla_proto:/home/soda/ros2_ws/install/vla_pipeline:/home/soda/ros2_ws/install/siglip_ros:/opt/ros/humble', 'SHELL': '/bin/zsh', 'LC_NAME': 'ko_KR.UTF-8', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'P9K_SSH': '1', 'PWD': '/home/soda/VLAA/build/action_executor_node', 'SSH_CONNECTION': '192.168.101.102 50598 192.168.101.101 22', '_P9K_TTY': '/dev/pts/32', 'LC_NUMERIC': 'ko_KR.UTF-8', 'PYTHONPATH': '/home/soda/VLAA/build/action_executor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soda/VLAA/install/action_executor_node/lib/python3.10/site-packages:/workspace/ros2_ws/build/vla_proto:/home/soda/ros2_ws/install/vla_proto/lib/python3.10/site-packages:/workspace/ros2_ws/build/vla_pipeline:/home/soda/ros2_ws/install/vla_pipeline/lib/python3.10/site-packages:/workspace/ros2_ws/build/siglip_ros:/home/soda/ros2_ws/install/siglip_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'NGC_API_KEY': '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'}, 'shell': False}
+[6.370685] (omni_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/omni_controller', 'build', '--build-base', '/home/soda/VLAA/build/omni_controller/build', 'install', '--record', '/home/soda/VLAA/build/omni_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/soda/VLAA/src/omni_controller', 'env': {'USER': 'soda', 'LC_TIME': 'ko_KR.UTF-8', 'SSH_CLIENT': '192.168.101.102 50598 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/soda', 'MOTD_SHOWN': 'pam', 'OLDPWD': '/home/soda', 'LESS': '-R', 'TERMINFO': '/home/soda/.terminfo', 'SSH_TTY': '/dev/pts/32', 'ZSH': '/home/soda/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ko_KR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'P9K_TTY': 'old', 'ROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/home/soda/ros2_ws/install', 'LOGNAME': 'soda', '_P9K_SSH_TTY': '/dev/pts/32', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '24', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/soda/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/cuda/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'ko_KR.UTF-8', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'LS_COLORS': 'no=00;38;5;244:rs=0:di=00;38;5;33:ln=01;38;5;37:mh=00:pi=48;5;230;38;5;136;01:so=48;5;230;38;5;136;01:do=48;5;230;38;5;136;01:bd=48;5;230;38;5;244;01:cd=48;5;230;38;5;244;01:or=48;5;235;38;5;160:su=48;5;160;38;5;230:sg=48;5;136;38;5;230:ca=30;41:tw=48;5;64;38;5;230:ow=48;5;235;38;5;33:st=48;5;33;38;5;230:ex=01;38;5;64:*.tar=00;38;5;61:*.tgz=01;38;5;61:*.arj=01;38;5;61:*.taz=01;38;5;61:*.lzh=01;38;5;61:*.lzma=01;38;5;61:*.tlz=01;38;5;61:*.txz=01;38;5;61:*.zip=01;38;5;61:*.zst=01;38;5;61:*.z=01;38;5;61:*.Z=01;38;5;61:*.dz=01;38;5;61:*.gz=01;38;5;61:*.lz=01;38;5;61:*.xz=01;38;5;61:*.bz2=01;38;5;61:*.bz=01;38;5;61:*.tbz=01;38;5;61:*.tbz2=01;38;5;61:*.tz=01;38;5;61:*.deb=01;38;5;61:*.rpm=01;38;5;61:*.jar=01;38;5;61:*.rar=01;38;5;61:*.ace=01;38;5;61:*.zoo=01;38;5;61:*.cpio=01;38;5;61:*.7z=01;38;5;61:*.rz=01;38;5;61:*.apk=01;38;5;61:*.gem=01;38;5;61:*.jpg=00;38;5;136:*.JPG=00;38;5;136:*.jpeg=00;38;5;136:*.gif=00;38;5;136:*.bmp=00;38;5;136:*.pbm=00;38;5;136:*.pgm=00;38;5;136:*.ppm=00;38;5;136:*.tga=00;38;5;136:*.xbm=00;38;5;136:*.xpm=00;38;5;136:*.tif=00;38;5;136:*.tiff=00;38;5;136:*.png=00;38;5;136:*.PNG=00;38;5;136:*.svg=00;38;5;136:*.svgz=00;38;5;136:*.mng=00;38;5;136:*.pcx=00;38;5;136:*.dl=00;38;5;136:*.xcf=00;38;5;136:*.xwd=00;38;5;136:*.yuv=00;38;5;136:*.cgm=00;38;5;136:*.emf=00;38;5;136:*.eps=00;38;5;136:*.CR2=00;38;5;136:*.ico=00;38;5;136:*.nef=00;38;5;136:*.NEF=00;38;5;136:*.webp=00;38;5;136:*.heic=00;38;5;136:*.HEIC=00;38;5;136:*.avif=00;38;5;136:*.tex=01;38;5;245:*.rdf=01;38;5;245:*.owl=01;38;5;245:*.n3=01;38;5;245:*.ttl=01;38;5;245:*.nt=01;38;5;245:*.torrent=01;38;5;245:*.xml=01;38;5;245:*Makefile=01;38;5;245:*Rakefile=01;38;5;245:*Dockerfile=01;38;5;245:*build.xml=01;38;5;245:*rc=01;38;5;245:*1=01;38;5;245:*.nfo=01;38;5;245:*README=01;38;5;245:*README.txt=01;38;5;245:*readme.txt=01;38;5;245:*.md=01;38;5;245:*README.markdown=01;38;5;245:*.ini=01;38;5;245:*.yml=01;38;5;245:*.cfg=01;38;5;245:*.conf=01;38;5;245:*.h=01;38;5;245:*.hpp=01;38;5;245:*.c=01;38;5;245:*.cpp=01;38;5;245:*.cxx=01;38;5;245:*.cc=01;38;5;245:*.objc=01;38;5;245:*.sqlite=01;38;5;245:*.go=01;38;5;245:*.lua=01;38;5;245:*.sql=01;38;5;245:*.csv=01;38;5;245:*.log=00;38;5;240:*.bak=00;38;5;240:*.aux=00;38;5;240:*.lof=00;38;5;240:*.lol=00;38;5;240:*.lot=00;38;5;240:*.out=00;38;5;240:*.toc=00;38;5;240:*.bbl=00;38;5;240:*.blg=00;38;5;240:*~=00;38;5;240:*#=00;38;5;240:*.part=00;38;5;240:*.incomplete=00;38;5;240:*.swp=00;38;5;240:*.tmp=00;38;5;240:*.temp=00;38;5;240:*.o=00;38;5;240:*.pyc=00;38;5;240:*.class=00;38;5;240:*.cache=00;38;5;240:*.aac=00;38;5;166:*.au=00;38;5;166:*.flac=00;38;5;166:*.mid=00;38;5;166:*.midi=00;38;5;166:*.mka=00;38;5;166:*.mp3=00;38;5;166:*.mpc=00;38;5;166:*.ogg=00;38;5;166:*.opus=00;38;5;166:*.ra=00;38;5;166:*.wav=00;38;5;166:*.m4a=00;38;5;166:*.axa=00;38;5;166:*.oga=00;38;5;166:*.spx=00;38;5;166:*.xspf=00;38;5;166:*.mov=01;38;5;166:*.MOV=01;38;5;166:*.mpg=01;38;5;166:*.mpeg=01;38;5;166:*.m2v=01;38;5;166:*.mkv=01;38;5;166:*.ogm=01;38;5;166:*.mp4=01;38;5;166:*.m4v=01;38;5;166:*.mp4v=01;38;5;166:*.vob=01;38;5;166:*.qt=01;38;5;166:*.nuv=01;38;5;166:*.wmv=01;38;5;166:*.asf=01;38;5;166:*.rm=01;38;5;166:*.rmvb=01;38;5;166:*.flc=01;38;5;166:*.avi=01;38;5;166:*.fli=01;38;5;166:*.flv=01;38;5;166:*.gl=01;38;5;166:*.m2ts=01;38;5;166:*.divx=01;38;5;166:*.webm=01;38;5;166:*.axv=01;38;5;166:*.anx=01;38;5;166:*.ogv=01;38;5;166:*.ogx=01;38;5;166:', 'AMENT_PREFIX_PATH': '/home/soda/ros2_ws/install/vla_proto:/home/soda/ros2_ws/install/vla_pipeline:/home/soda/ros2_ws/install/siglip_ros:/opt/ros/humble', 'SHELL': '/bin/zsh', 'LC_NAME': 'ko_KR.UTF-8', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'P9K_SSH': '1', 'PWD': '/home/soda/VLAA/build/omni_controller', 'SSH_CONNECTION': '192.168.101.102 50598 192.168.101.101 22', '_P9K_TTY': '/dev/pts/32', 'LC_NUMERIC': 'ko_KR.UTF-8', 'PYTHONPATH': '/home/soda/VLAA/build/omni_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soda/VLAA/install/omni_controller/lib/python3.10/site-packages:/workspace/ros2_ws/build/vla_proto:/home/soda/ros2_ws/install/vla_proto/lib/python3.10/site-packages:/workspace/ros2_ws/build/vla_pipeline:/home/soda/ros2_ws/install/vla_pipeline/lib/python3.10/site-packages:/workspace/ros2_ws/build/siglip_ros:/home/soda/ros2_ws/install/siglip_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'NGC_API_KEY': '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'}, 'shell': False}
+[6.375162] (vla_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/vla_node', 'build', '--build-base', '/home/soda/VLAA/build/vla_node/build', 'install', '--record', '/home/soda/VLAA/build/vla_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/soda/VLAA/src/vla_node', 'env': {'USER': 'soda', 'LC_TIME': 'ko_KR.UTF-8', 'SSH_CLIENT': '192.168.101.102 50598 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/soda', 'MOTD_SHOWN': 'pam', 'OLDPWD': '/home/soda', 'LESS': '-R', 'TERMINFO': '/home/soda/.terminfo', 'SSH_TTY': '/dev/pts/32', 'ZSH': '/home/soda/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ko_KR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'P9K_TTY': 'old', 'ROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/home/soda/ros2_ws/install', 'LOGNAME': 'soda', '_P9K_SSH_TTY': '/dev/pts/32', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '24', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/soda/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/cuda/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'ko_KR.UTF-8', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'LS_COLORS': 'no=00;38;5;244:rs=0:di=00;38;5;33:ln=01;38;5;37:mh=00:pi=48;5;230;38;5;136;01:so=48;5;230;38;5;136;01:do=48;5;230;38;5;136;01:bd=48;5;230;38;5;244;01:cd=48;5;230;38;5;244;01:or=48;5;235;38;5;160:su=48;5;160;38;5;230:sg=48;5;136;38;5;230:ca=30;41:tw=48;5;64;38;5;230:ow=48;5;235;38;5;33:st=48;5;33;38;5;230:ex=01;38;5;64:*.tar=00;38;5;61:*.tgz=01;38;5;61:*.arj=01;38;5;61:*.taz=01;38;5;61:*.lzh=01;38;5;61:*.lzma=01;38;5;61:*.tlz=01;38;5;61:*.txz=01;38;5;61:*.zip=01;38;5;61:*.zst=01;38;5;61:*.z=01;38;5;61:*.Z=01;38;5;61:*.dz=01;38;5;61:*.gz=01;38;5;61:*.lz=01;38;5;61:*.xz=01;38;5;61:*.bz2=01;38;5;61:*.bz=01;38;5;61:*.tbz=01;38;5;61:*.tbz2=01;38;5;61:*.tz=01;38;5;61:*.deb=01;38;5;61:*.rpm=01;38;5;61:*.jar=01;38;5;61:*.rar=01;38;5;61:*.ace=01;38;5;61:*.zoo=01;38;5;61:*.cpio=01;38;5;61:*.7z=01;38;5;61:*.rz=01;38;5;61:*.apk=01;38;5;61:*.gem=01;38;5;61:*.jpg=00;38;5;136:*.JPG=00;38;5;136:*.jpeg=00;38;5;136:*.gif=00;38;5;136:*.bmp=00;38;5;136:*.pbm=00;38;5;136:*.pgm=00;38;5;136:*.ppm=00;38;5;136:*.tga=00;38;5;136:*.xbm=00;38;5;136:*.xpm=00;38;5;136:*.tif=00;38;5;136:*.tiff=00;38;5;136:*.png=00;38;5;136:*.PNG=00;38;5;136:*.svg=00;38;5;136:*.svgz=00;38;5;136:*.mng=00;38;5;136:*.pcx=00;38;5;136:*.dl=00;38;5;136:*.xcf=00;38;5;136:*.xwd=00;38;5;136:*.yuv=00;38;5;136:*.cgm=00;38;5;136:*.emf=00;38;5;136:*.eps=00;38;5;136:*.CR2=00;38;5;136:*.ico=00;38;5;136:*.nef=00;38;5;136:*.NEF=00;38;5;136:*.webp=00;38;5;136:*.heic=00;38;5;136:*.HEIC=00;38;5;136:*.avif=00;38;5;136:*.tex=01;38;5;245:*.rdf=01;38;5;245:*.owl=01;38;5;245:*.n3=01;38;5;245:*.ttl=01;38;5;245:*.nt=01;38;5;245:*.torrent=01;38;5;245:*.xml=01;38;5;245:*Makefile=01;38;5;245:*Rakefile=01;38;5;245:*Dockerfile=01;38;5;245:*build.xml=01;38;5;245:*rc=01;38;5;245:*1=01;38;5;245:*.nfo=01;38;5;245:*README=01;38;5;245:*README.txt=01;38;5;245:*readme.txt=01;38;5;245:*.md=01;38;5;245:*README.markdown=01;38;5;245:*.ini=01;38;5;245:*.yml=01;38;5;245:*.cfg=01;38;5;245:*.conf=01;38;5;245:*.h=01;38;5;245:*.hpp=01;38;5;245:*.c=01;38;5;245:*.cpp=01;38;5;245:*.cxx=01;38;5;245:*.cc=01;38;5;245:*.objc=01;38;5;245:*.sqlite=01;38;5;245:*.go=01;38;5;245:*.lua=01;38;5;245:*.sql=01;38;5;245:*.csv=01;38;5;245:*.log=00;38;5;240:*.bak=00;38;5;240:*.aux=00;38;5;240:*.lof=00;38;5;240:*.lol=00;38;5;240:*.lot=00;38;5;240:*.out=00;38;5;240:*.toc=00;38;5;240:*.bbl=00;38;5;240:*.blg=00;38;5;240:*~=00;38;5;240:*#=00;38;5;240:*.part=00;38;5;240:*.incomplete=00;38;5;240:*.swp=00;38;5;240:*.tmp=00;38;5;240:*.temp=00;38;5;240:*.o=00;38;5;240:*.pyc=00;38;5;240:*.class=00;38;5;240:*.cache=00;38;5;240:*.aac=00;38;5;166:*.au=00;38;5;166:*.flac=00;38;5;166:*.mid=00;38;5;166:*.midi=00;38;5;166:*.mka=00;38;5;166:*.mp3=00;38;5;166:*.mpc=00;38;5;166:*.ogg=00;38;5;166:*.opus=00;38;5;166:*.ra=00;38;5;166:*.wav=00;38;5;166:*.m4a=00;38;5;166:*.axa=00;38;5;166:*.oga=00;38;5;166:*.spx=00;38;5;166:*.xspf=00;38;5;166:*.mov=01;38;5;166:*.MOV=01;38;5;166:*.mpg=01;38;5;166:*.mpeg=01;38;5;166:*.m2v=01;38;5;166:*.mkv=01;38;5;166:*.ogm=01;38;5;166:*.mp4=01;38;5;166:*.m4v=01;38;5;166:*.mp4v=01;38;5;166:*.vob=01;38;5;166:*.qt=01;38;5;166:*.nuv=01;38;5;166:*.wmv=01;38;5;166:*.asf=01;38;5;166:*.rm=01;38;5;166:*.rmvb=01;38;5;166:*.flc=01;38;5;166:*.avi=01;38;5;166:*.fli=01;38;5;166:*.flv=01;38;5;166:*.gl=01;38;5;166:*.m2ts=01;38;5;166:*.divx=01;38;5;166:*.webm=01;38;5;166:*.axv=01;38;5;166:*.anx=01;38;5;166:*.ogv=01;38;5;166:*.ogx=01;38;5;166:', 'AMENT_PREFIX_PATH': '/home/soda/ros2_ws/install/vla_proto:/home/soda/ros2_ws/install/vla_pipeline:/home/soda/ros2_ws/install/siglip_ros:/opt/ros/humble', 'SHELL': '/bin/zsh', 'LC_NAME': 'ko_KR.UTF-8', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'P9K_SSH': '1', 'PWD': '/home/soda/VLAA/build/vla_node', 'SSH_CONNECTION': '192.168.101.102 50598 192.168.101.101 22', '_P9K_TTY': '/dev/pts/32', 'LC_NUMERIC': 'ko_KR.UTF-8', 'PYTHONPATH': '/home/soda/VLAA/build/vla_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soda/VLAA/install/vla_node/lib/python3.10/site-packages:/workspace/ros2_ws/build/vla_proto:/home/soda/ros2_ws/install/vla_proto/lib/python3.10/site-packages:/workspace/ros2_ws/build/vla_pipeline:/home/soda/ros2_ws/install/vla_pipeline/lib/python3.10/site-packages:/workspace/ros2_ws/build/siglip_ros:/home/soda/ros2_ws/install/siglip_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'NGC_API_KEY': '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'}, 'shell': False}
+[6.377808] (camera_pub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/camera_pub', 'build', '--build-base', '/home/soda/VLAA/build/camera_pub/build', 'install', '--record', '/home/soda/VLAA/build/camera_pub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/soda/VLAA/src/camera_pub', 'env': {'USER': 'soda', 'LC_TIME': 'ko_KR.UTF-8', 'SSH_CLIENT': '192.168.101.102 50598 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/soda', 'MOTD_SHOWN': 'pam', 'OLDPWD': '/home/soda', 'LESS': '-R', 'TERMINFO': '/home/soda/.terminfo', 'SSH_TTY': '/dev/pts/32', 'ZSH': '/home/soda/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ko_KR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'P9K_TTY': 'old', 'ROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/home/soda/ros2_ws/install', 'LOGNAME': 'soda', '_P9K_SSH_TTY': '/dev/pts/32', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '24', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/soda/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/cuda/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'ko_KR.UTF-8', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'LS_COLORS': 'no=00;38;5;244:rs=0:di=00;38;5;33:ln=01;38;5;37:mh=00:pi=48;5;230;38;5;136;01:so=48;5;230;38;5;136;01:do=48;5;230;38;5;136;01:bd=48;5;230;38;5;244;01:cd=48;5;230;38;5;244;01:or=48;5;235;38;5;160:su=48;5;160;38;5;230:sg=48;5;136;38;5;230:ca=30;41:tw=48;5;64;38;5;230:ow=48;5;235;38;5;33:st=48;5;33;38;5;230:ex=01;38;5;64:*.tar=00;38;5;61:*.tgz=01;38;5;61:*.arj=01;38;5;61:*.taz=01;38;5;61:*.lzh=01;38;5;61:*.lzma=01;38;5;61:*.tlz=01;38;5;61:*.txz=01;38;5;61:*.zip=01;38;5;61:*.zst=01;38;5;61:*.z=01;38;5;61:*.Z=01;38;5;61:*.dz=01;38;5;61:*.gz=01;38;5;61:*.lz=01;38;5;61:*.xz=01;38;5;61:*.bz2=01;38;5;61:*.bz=01;38;5;61:*.tbz=01;38;5;61:*.tbz2=01;38;5;61:*.tz=01;38;5;61:*.deb=01;38;5;61:*.rpm=01;38;5;61:*.jar=01;38;5;61:*.rar=01;38;5;61:*.ace=01;38;5;61:*.zoo=01;38;5;61:*.cpio=01;38;5;61:*.7z=01;38;5;61:*.rz=01;38;5;61:*.apk=01;38;5;61:*.gem=01;38;5;61:*.jpg=00;38;5;136:*.JPG=00;38;5;136:*.jpeg=00;38;5;136:*.gif=00;38;5;136:*.bmp=00;38;5;136:*.pbm=00;38;5;136:*.pgm=00;38;5;136:*.ppm=00;38;5;136:*.tga=00;38;5;136:*.xbm=00;38;5;136:*.xpm=00;38;5;136:*.tif=00;38;5;136:*.tiff=00;38;5;136:*.png=00;38;5;136:*.PNG=00;38;5;136:*.svg=00;38;5;136:*.svgz=00;38;5;136:*.mng=00;38;5;136:*.pcx=00;38;5;136:*.dl=00;38;5;136:*.xcf=00;38;5;136:*.xwd=00;38;5;136:*.yuv=00;38;5;136:*.cgm=00;38;5;136:*.emf=00;38;5;136:*.eps=00;38;5;136:*.CR2=00;38;5;136:*.ico=00;38;5;136:*.nef=00;38;5;136:*.NEF=00;38;5;136:*.webp=00;38;5;136:*.heic=00;38;5;136:*.HEIC=00;38;5;136:*.avif=00;38;5;136:*.tex=01;38;5;245:*.rdf=01;38;5;245:*.owl=01;38;5;245:*.n3=01;38;5;245:*.ttl=01;38;5;245:*.nt=01;38;5;245:*.torrent=01;38;5;245:*.xml=01;38;5;245:*Makefile=01;38;5;245:*Rakefile=01;38;5;245:*Dockerfile=01;38;5;245:*build.xml=01;38;5;245:*rc=01;38;5;245:*1=01;38;5;245:*.nfo=01;38;5;245:*README=01;38;5;245:*README.txt=01;38;5;245:*readme.txt=01;38;5;245:*.md=01;38;5;245:*README.markdown=01;38;5;245:*.ini=01;38;5;245:*.yml=01;38;5;245:*.cfg=01;38;5;245:*.conf=01;38;5;245:*.h=01;38;5;245:*.hpp=01;38;5;245:*.c=01;38;5;245:*.cpp=01;38;5;245:*.cxx=01;38;5;245:*.cc=01;38;5;245:*.objc=01;38;5;245:*.sqlite=01;38;5;245:*.go=01;38;5;245:*.lua=01;38;5;245:*.sql=01;38;5;245:*.csv=01;38;5;245:*.log=00;38;5;240:*.bak=00;38;5;240:*.aux=00;38;5;240:*.lof=00;38;5;240:*.lol=00;38;5;240:*.lot=00;38;5;240:*.out=00;38;5;240:*.toc=00;38;5;240:*.bbl=00;38;5;240:*.blg=00;38;5;240:*~=00;38;5;240:*#=00;38;5;240:*.part=00;38;5;240:*.incomplete=00;38;5;240:*.swp=00;38;5;240:*.tmp=00;38;5;240:*.temp=00;38;5;240:*.o=00;38;5;240:*.pyc=00;38;5;240:*.class=00;38;5;240:*.cache=00;38;5;240:*.aac=00;38;5;166:*.au=00;38;5;166:*.flac=00;38;5;166:*.mid=00;38;5;166:*.midi=00;38;5;166:*.mka=00;38;5;166:*.mp3=00;38;5;166:*.mpc=00;38;5;166:*.ogg=00;38;5;166:*.opus=00;38;5;166:*.ra=00;38;5;166:*.wav=00;38;5;166:*.m4a=00;38;5;166:*.axa=00;38;5;166:*.oga=00;38;5;166:*.spx=00;38;5;166:*.xspf=00;38;5;166:*.mov=01;38;5;166:*.MOV=01;38;5;166:*.mpg=01;38;5;166:*.mpeg=01;38;5;166:*.m2v=01;38;5;166:*.mkv=01;38;5;166:*.ogm=01;38;5;166:*.mp4=01;38;5;166:*.m4v=01;38;5;166:*.mp4v=01;38;5;166:*.vob=01;38;5;166:*.qt=01;38;5;166:*.nuv=01;38;5;166:*.wmv=01;38;5;166:*.asf=01;38;5;166:*.rm=01;38;5;166:*.rmvb=01;38;5;166:*.flc=01;38;5;166:*.avi=01;38;5;166:*.fli=01;38;5;166:*.flv=01;38;5;166:*.gl=01;38;5;166:*.m2ts=01;38;5;166:*.divx=01;38;5;166:*.webm=01;38;5;166:*.axv=01;38;5;166:*.anx=01;38;5;166:*.ogv=01;38;5;166:*.ogx=01;38;5;166:', 'AMENT_PREFIX_PATH': '/home/soda/ros2_ws/install/vla_proto:/home/soda/ros2_ws/install/vla_pipeline:/home/soda/ros2_ws/install/siglip_ros:/opt/ros/humble', 'SHELL': '/bin/zsh', 'LC_NAME': 'ko_KR.UTF-8', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'P9K_SSH': '1', 'PWD': '/home/soda/VLAA/build/camera_pub', 'SSH_CONNECTION': '192.168.101.102 50598 192.168.101.101 22', '_P9K_TTY': '/dev/pts/32', 'LC_NUMERIC': 'ko_KR.UTF-8', 'PYTHONPATH': '/home/soda/VLAA/build/camera_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soda/VLAA/install/camera_pub/lib/python3.10/site-packages:/workspace/ros2_ws/build/vla_proto:/home/soda/ros2_ws/install/vla_proto/lib/python3.10/site-packages:/workspace/ros2_ws/build/vla_pipeline:/home/soda/ros2_ws/install/vla_pipeline/lib/python3.10/site-packages:/workspace/ros2_ws/build/siglip_ros:/home/soda/ros2_ws/install/siglip_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'NGC_API_KEY': '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'}, 'shell': False}
+[6.432550] (-) TimerEvent: {}
+[6.533093] (-) TimerEvent: {}
+[6.633619] (-) TimerEvent: {}
+[6.734125] (-) TimerEvent: {}
+[6.834637] (-) TimerEvent: {}
+[6.935155] (-) TimerEvent: {}
+[7.035724] (-) TimerEvent: {}
+[7.136223] (-) TimerEvent: {}
+[7.236759] (-) TimerEvent: {}
+[7.241632] (vla_node) StdoutLine: {'line': b'running egg_info\n'}
+[7.242041] (omni_controller) StdoutLine: {'line': b'running egg_info\n'}
+[7.242897] (vla_node) StdoutLine: {'line': b'creating ../../build/vla_node/vla_node.egg-info\n'}
+[7.243511] (omni_controller) StdoutLine: {'line': b'creating ../../build/omni_controller/omni_controller.egg-info\n'}
+[7.247910] (camera_pub) StdoutLine: {'line': b'running egg_info\n'}
+[7.278421] (action_executor_node) StdoutLine: {'line': b'running egg_info\n'}
+[7.279145] (action_executor_node) StdoutLine: {'line': b'creating ../../build/action_executor_node/action_executor_node.egg-info\n'}
+[7.336888] (-) TimerEvent: {}
+[7.437378] (-) TimerEvent: {}
+[7.470949] (omni_controller) StdoutLine: {'line': b'writing ../../build/omni_controller/omni_controller.egg-info/PKG-INFO\n'}
+[7.472889] (vla_node) StdoutLine: {'line': b'writing ../../build/vla_node/vla_node.egg-info/PKG-INFO\n'}
+[7.473284] (camera_pub) StdoutLine: {'line': b'writing ../../build/camera_pub/camera_pub.egg-info/PKG-INFO\n'}
+[7.473496] (action_executor_node) StdoutLine: {'line': b'writing ../../build/action_executor_node/action_executor_node.egg-info/PKG-INFO\n'}
+[7.473719] (camera_pub) StdoutLine: {'line': b'writing dependency_links to ../../build/camera_pub/camera_pub.egg-info/dependency_links.txt\n'}
+[7.473895] (vla_node) StdoutLine: {'line': b'writing dependency_links to ../../build/vla_node/vla_node.egg-info/dependency_links.txt\n'}
+[7.474068] (action_executor_node) StdoutLine: {'line': b'writing dependency_links to ../../build/action_executor_node/action_executor_node.egg-info/dependency_links.txt\n'}
+[7.474257] (vla_node) StdoutLine: {'line': b'writing entry points to ../../build/vla_node/vla_node.egg-info/entry_points.txt\n'}
+[7.474425] (omni_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/omni_controller/omni_controller.egg-info/dependency_links.txt\n'}
+[7.474573] (omni_controller) StdoutLine: {'line': b'writing entry points to ../../build/omni_controller/omni_controller.egg-info/entry_points.txt\n'}
+[7.474697] (omni_controller) StdoutLine: {'line': b'writing requirements to ../../build/omni_controller/omni_controller.egg-info/requires.txt\n'}
+[7.474799] (vla_node) StdoutLine: {'line': b'writing requirements to ../../build/vla_node/vla_node.egg-info/requires.txt\n'}
+[7.474904] (action_executor_node) StdoutLine: {'line': b'writing entry points to ../../build/action_executor_node/action_executor_node.egg-info/entry_points.txt\n'}
+[7.475042] (action_executor_node) StdoutLine: {'line': b'writing requirements to ../../build/action_executor_node/action_executor_node.egg-info/requires.txt\n'}
+[7.475149] (action_executor_node) StdoutLine: {'line': b'writing top-level names to ../../build/action_executor_node/action_executor_node.egg-info/top_level.txt\n'}
+[7.475249] (camera_pub) StdoutLine: {'line': b'writing entry points to ../../build/camera_pub/camera_pub.egg-info/entry_points.txt\n'}
+[7.475356] (vla_node) StdoutLine: {'line': b'writing top-level names to ../../build/vla_node/vla_node.egg-info/top_level.txt\n'}
+[7.475456] (camera_pub) StdoutLine: {'line': b'writing requirements to ../../build/camera_pub/camera_pub.egg-info/requires.txt\n'}
+[7.475553] (camera_pub) StdoutLine: {'line': b'writing top-level names to ../../build/camera_pub/camera_pub.egg-info/top_level.txt\n'}
+[7.475686] (omni_controller) StdoutLine: {'line': b'writing top-level names to ../../build/omni_controller/omni_controller.egg-info/top_level.txt\n'}
+[7.475814] (vla_node) StdoutLine: {'line': b"writing manifest file '../../build/vla_node/vla_node.egg-info/SOURCES.txt'\n"}
+[7.475921] (action_executor_node) StdoutLine: {'line': b"writing manifest file '../../build/action_executor_node/action_executor_node.egg-info/SOURCES.txt'\n"}
+[7.476021] (omni_controller) StdoutLine: {'line': b"writing manifest file '../../build/omni_controller/omni_controller.egg-info/SOURCES.txt'\n"}
+[7.537510] (-) TimerEvent: {}
+[7.553105] (omni_controller) StdoutLine: {'line': b"reading manifest file '../../build/omni_controller/omni_controller.egg-info/SOURCES.txt'\n"}
+[7.553509] (action_executor_node) StdoutLine: {'line': b"reading manifest file '../../build/action_executor_node/action_executor_node.egg-info/SOURCES.txt'\n"}
+[7.554357] (omni_controller) StdoutLine: {'line': b"writing manifest file '../../build/omni_controller/omni_controller.egg-info/SOURCES.txt'\n"}
+[7.554574] (action_executor_node) StdoutLine: {'line': b"writing manifest file '../../build/action_executor_node/action_executor_node.egg-info/SOURCES.txt'\n"}
+[7.554798] (omni_controller) StdoutLine: {'line': b'running build\n'}
+[7.555038] (action_executor_node) StdoutLine: {'line': b'running build\n'}
+[7.555368] (action_executor_node) StdoutLine: {'line': b'running build_py\n'}
+[7.555691] (omni_controller) StdoutLine: {'line': b'running build_py\n'}
+[7.555906] (action_executor_node) StdoutLine: {'line': b'creating /home/soda/VLAA/build/action_executor_node/build\n'}
+[7.556102] (vla_node) StdoutLine: {'line': b"reading manifest file '../../build/vla_node/vla_node.egg-info/SOURCES.txt'\n"}
+[7.556230] (action_executor_node) StdoutLine: {'line': b'creating /home/soda/VLAA/build/action_executor_node/build/lib\n'}
+[7.556337] (omni_controller) StdoutLine: {'line': b'creating /home/soda/VLAA/build/omni_controller/build\n'}
+[7.556439] (action_executor_node) StdoutLine: {'line': b'creating /home/soda/VLAA/build/action_executor_node/build/lib/action_executor_node\n'}
+[7.556658] (omni_controller) StdoutLine: {'line': b'creating /home/soda/VLAA/build/omni_controller/build/lib\n'}
+[7.556769] (action_executor_node) StdoutLine: {'line': b'copying action_executor_node/__init__.py -> /home/soda/VLAA/build/action_executor_node/build/lib/action_executor_node\n'}
+[7.556970] (omni_controller) StdoutLine: {'line': b'creating /home/soda/VLAA/build/omni_controller/build/lib/omni_controller\n'}
+[7.557141] (action_executor_node) StdoutLine: {'line': b'copying action_executor_node/action_executor_node.py -> /home/soda/VLAA/build/action_executor_node/build/lib/action_executor_node\n'}
+[7.557251] (omni_controller) StdoutLine: {'line': b'copying omni_controller/omni_drive_node.py -> /home/soda/VLAA/build/omni_controller/build/lib/omni_controller\n'}
+[7.557351] (omni_controller) StdoutLine: {'line': b'copying omni_controller/__init__.py -> /home/soda/VLAA/build/omni_controller/build/lib/omni_controller\n'}
+[7.557447] (action_executor_node) StdoutLine: {'line': b'running install\n'}
+[7.557543] (vla_node) StdoutLine: {'line': b"writing manifest file '../../build/vla_node/vla_node.egg-info/SOURCES.txt'\n"}
+[7.557648] (omni_controller) StdoutLine: {'line': b'running install\n'}
+[7.557848] (vla_node) StdoutLine: {'line': b'running build\n'}
+[7.558010] (vla_node) StdoutLine: {'line': b'running build_py\n'}
+[7.558254] (vla_node) StdoutLine: {'line': b'creating /home/soda/VLAA/build/vla_node/build\n'}
+[7.558435] (vla_node) StdoutLine: {'line': b'creating /home/soda/VLAA/build/vla_node/build/lib\n'}
+[7.558588] (vla_node) StdoutLine: {'line': b'creating /home/soda/VLAA/build/vla_node/build/lib/vla_node\n'}
+[7.558750] (vla_node) StdoutLine: {'line': b'copying vla_node/__init__.py -> /home/soda/VLAA/build/vla_node/build/lib/vla_node\n'}
+[7.559339] (vla_node) StdoutLine: {'line': b'copying vla_node/vla_node.py -> /home/soda/VLAA/build/vla_node/build/lib/vla_node\n'}
+[7.559729] (camera_pub) StdoutLine: {'line': b"reading manifest file '../../build/camera_pub/camera_pub.egg-info/SOURCES.txt'\n"}
+[7.560020] (vla_node) StdoutLine: {'line': b'running install\n'}
+[7.562267] (camera_pub) StdoutLine: {'line': b"writing manifest file '../../build/camera_pub/camera_pub.egg-info/SOURCES.txt'\n"}
+[7.562942] (camera_pub) StdoutLine: {'line': b'running build\n'}
+[7.563259] (camera_pub) StdoutLine: {'line': b'running build_py\n'}
+[7.564112] (camera_pub) StdoutLine: {'line': b'running install\n'}
+[7.570302] (action_executor_node) StdoutLine: {'line': b'running install_lib\n'}
+[7.570544] (omni_controller) StdoutLine: {'line': b'running install_lib\n'}
+[7.570682] (vla_node) StdoutLine: {'line': b'running install_lib\n'}
+[7.574799] (camera_pub) StdoutLine: {'line': b'running install_lib\n'}
+[7.604920] (omni_controller) StdoutLine: {'line': b'creating /home/soda/VLAA/install/omni_controller/lib/python3.10/site-packages/omni_controller\n'}
+[7.605454] (omni_controller) StdoutLine: {'line': b'copying /home/soda/VLAA/build/omni_controller/build/lib/omni_controller/omni_drive_node.py -> /home/soda/VLAA/install/omni_controller/lib/python3.10/site-packages/omni_controller\n'}
+[7.605668] (action_executor_node) StdoutLine: {'line': b'creating /home/soda/VLAA/install/action_executor_node/lib/python3.10/site-packages/action_executor_node\n'}
+[7.605837] (omni_controller) StdoutLine: {'line': b'copying /home/soda/VLAA/build/omni_controller/build/lib/omni_controller/__init__.py -> /home/soda/VLAA/install/omni_controller/lib/python3.10/site-packages/omni_controller\n'}
+[7.605956] (action_executor_node) StdoutLine: {'line': b'copying /home/soda/VLAA/build/action_executor_node/build/lib/action_executor_node/__init__.py -> /home/soda/VLAA/install/action_executor_node/lib/python3.10/site-packages/action_executor_node\n'}
+[7.606092] (action_executor_node) StdoutLine: {'line': b'copying /home/soda/VLAA/build/action_executor_node/build/lib/action_executor_node/action_executor_node.py -> /home/soda/VLAA/install/action_executor_node/lib/python3.10/site-packages/action_executor_node\n'}
+[7.606268] (omni_controller) StdoutLine: {'line': b'byte-compiling /home/soda/VLAA/install/omni_controller/lib/python3.10/site-packages/omni_controller/omni_drive_node.py to omni_drive_node.cpython-310.pyc\n'}
+[7.606616] (action_executor_node) StdoutLine: {'line': b'byte-compiling /home/soda/VLAA/install/action_executor_node/lib/python3.10/site-packages/action_executor_node/__init__.py to __init__.cpython-310.pyc\n'}
+[7.607626] (action_executor_node) StdoutLine: {'line': b'byte-compiling /home/soda/VLAA/install/action_executor_node/lib/python3.10/site-packages/action_executor_node/action_executor_node.py to action_executor_node.cpython-310.pyc\n'}
+[7.607850] (omni_controller) StdoutLine: {'line': b'byte-compiling /home/soda/VLAA/install/omni_controller/lib/python3.10/site-packages/omni_controller/__init__.py to __init__.cpython-310.pyc\n'}
+[7.608042] (omni_controller) StdoutLine: {'line': b'running install_data\n'}
+[7.608222] (omni_controller) StdoutLine: {'line': b'creating /home/soda/VLAA/install/omni_controller/share/ament_index\n'}
+[7.608389] (omni_controller) StdoutLine: {'line': b'creating /home/soda/VLAA/install/omni_controller/share/ament_index/resource_index\n'}
+[7.608537] (omni_controller) StdoutLine: {'line': b'creating /home/soda/VLAA/install/omni_controller/share/ament_index/resource_index/packages\n'}
+[7.608671] (action_executor_node) StdoutLine: {'line': b'running install_data\n'}
+[7.608809] (omni_controller) StdoutLine: {'line': b'copying resource/omni_controller -> /home/soda/VLAA/install/omni_controller/share/ament_index/resource_index/packages\n'}
+[7.609056] (action_executor_node) StdoutLine: {'line': b'creating /home/soda/VLAA/install/action_executor_node/share/ament_index\n'}
+[7.609238] (omni_controller) StdoutLine: {'line': b'copying package.xml -> /home/soda/VLAA/install/omni_controller/share/omni_controller\n'}
+[7.609358] (action_executor_node) StdoutLine: {'line': b'creating /home/soda/VLAA/install/action_executor_node/share/ament_index/resource_index\n'}
+[7.609463] (action_executor_node) StdoutLine: {'line': b'creating /home/soda/VLAA/install/action_executor_node/share/ament_index/resource_index/packages\n'}
+[7.609566] (action_executor_node) StdoutLine: {'line': b'copying resource/action_executor_node -> /home/soda/VLAA/install/action_executor_node/share/ament_index/resource_index/packages\n'}
+[7.609668] (omni_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.609767] (action_executor_node) StdoutLine: {'line': b'copying package.xml -> /home/soda/VLAA/install/action_executor_node/share/action_executor_node\n'}
+[7.609866] (action_executor_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.610143] (vla_node) StdoutLine: {'line': b'creating /home/soda/VLAA/install/vla_node/lib/python3.10/site-packages/vla_node\n'}
+[7.610350] (vla_node) StdoutLine: {'line': b'copying /home/soda/VLAA/build/vla_node/build/lib/vla_node/__init__.py -> /home/soda/VLAA/install/vla_node/lib/python3.10/site-packages/vla_node\n'}
+[7.610531] (vla_node) StdoutLine: {'line': b'copying /home/soda/VLAA/build/vla_node/build/lib/vla_node/vla_node.py -> /home/soda/VLAA/install/vla_node/lib/python3.10/site-packages/vla_node\n'}
+[7.611411] (vla_node) StdoutLine: {'line': b'byte-compiling /home/soda/VLAA/install/vla_node/lib/python3.10/site-packages/vla_node/__init__.py to __init__.cpython-310.pyc\n'}
+[7.611806] (vla_node) StdoutLine: {'line': b'byte-compiling /home/soda/VLAA/install/vla_node/lib/python3.10/site-packages/vla_node/vla_node.py to vla_node.cpython-310.pyc\n'}
+[7.612649] (vla_node) StdoutLine: {'line': b'running install_data\n'}
+[7.612822] (vla_node) StdoutLine: {'line': b'creating /home/soda/VLAA/install/vla_node/share/ament_index\n'}
+[7.612963] (vla_node) StdoutLine: {'line': b'creating /home/soda/VLAA/install/vla_node/share/ament_index/resource_index\n'}
+[7.613087] (vla_node) StdoutLine: {'line': b'creating /home/soda/VLAA/install/vla_node/share/ament_index/resource_index/packages\n'}
+[7.613209] (vla_node) StdoutLine: {'line': b'copying resource/vla_node -> /home/soda/VLAA/install/vla_node/share/ament_index/resource_index/packages\n'}
+[7.613359] (vla_node) StdoutLine: {'line': b'copying package.xml -> /home/soda/VLAA/install/vla_node/share/vla_node\n'}
+[7.613488] (vla_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.637614] (-) TimerEvent: {}
+[7.649812] (action_executor_node) StdoutLine: {'line': b'Copying ../../build/action_executor_node/action_executor_node.egg-info to /home/soda/VLAA/install/action_executor_node/lib/python3.10/site-packages/action_executor_node-0.0.0-py3.10.egg-info\n'}
+[7.650113] (omni_controller) StdoutLine: {'line': b'Copying ../../build/omni_controller/omni_controller.egg-info to /home/soda/VLAA/install/omni_controller/lib/python3.10/site-packages/omni_controller-0.0.0-py3.10.egg-info\n'}
+[7.651433] (omni_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[7.651661] (action_executor_node) StdoutLine: {'line': b'running install_scripts\n'}
+[7.657680] (vla_node) StdoutLine: {'line': b'Copying ../../build/vla_node/vla_node.egg-info to /home/soda/VLAA/install/vla_node/lib/python3.10/site-packages/vla_node-0.0.0-py3.10.egg-info\n'}
+[7.659315] (vla_node) StdoutLine: {'line': b'running install_scripts\n'}
+[7.737739] (-) TimerEvent: {}
+[7.793399] (omni_controller) StdoutLine: {'line': b'Installing omni_drive_node script to /home/soda/VLAA/install/omni_controller/lib/omni_controller\n'}
+[7.793822] (action_executor_node) StdoutLine: {'line': b'Installing action_executor_node script to /home/soda/VLAA/install/action_executor_node/lib/action_executor_node\n'}
+[7.794047] (omni_controller) StdoutLine: {'line': b"writing list of installed files to '/home/soda/VLAA/build/omni_controller/install.log'\n"}
+[7.794531] (action_executor_node) StdoutLine: {'line': b"writing list of installed files to '/home/soda/VLAA/build/action_executor_node/install.log'\n"}
+[7.795696] (camera_pub) StdoutLine: {'line': b'running install_data\n'}
+[7.795957] (camera_pub) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.804453] (vla_node) StdoutLine: {'line': b'Installing vla_node script to /home/soda/VLAA/install/vla_node/lib/vla_node\n'}
+[7.805292] (vla_node) StdoutLine: {'line': b"writing list of installed files to '/home/soda/VLAA/build/vla_node/install.log'\n"}
+[7.838567] (-) TimerEvent: {}
+[7.841174] (camera_pub) StdoutLine: {'line': b"removing '/home/soda/VLAA/install/camera_pub/lib/python3.10/site-packages/camera_pub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.841647] (camera_pub) StdoutLine: {'line': b'Copying ../../build/camera_pub/camera_pub.egg-info to /home/soda/VLAA/install/camera_pub/lib/python3.10/site-packages/camera_pub-0.0.0-py3.10.egg-info\n'}
+[7.842365] (camera_pub) StdoutLine: {'line': b'running install_scripts\n'}
+[7.922430] (omni_controller) CommandEnded: {'returncode': 0}
+[7.938652] (-) TimerEvent: {}
+[7.991856] (camera_pub) StdoutLine: {'line': b'Installing camera_publisher_node script to /home/soda/VLAA/install/camera_pub/lib/camera_pub\n'}
+[7.992499] (camera_pub) StdoutLine: {'line': b"writing list of installed files to '/home/soda/VLAA/build/camera_pub/install.log'\n"}
+[8.038830] (-) TimerEvent: {}
+[8.139463] (-) TimerEvent: {}
+[8.144167] (omni_controller) JobEnded: {'identifier': 'omni_controller', 'rc': 0}
+[8.146703] (action_executor_node) CommandEnded: {'returncode': 0}
+[8.155828] (action_executor_node) JobEnded: {'identifier': 'action_executor_node', 'rc': 0}
+[8.157128] (vla_node) CommandEnded: {'returncode': 0}
+[8.165900] (vla_node) JobEnded: {'identifier': 'vla_node', 'rc': 0}
+[8.166765] (camera_pub) CommandEnded: {'returncode': 0}
+[8.176145] (camera_pub) JobEnded: {'identifier': 'camera_pub', 'rc': 0}
+[8.177376] (-) EventReactorShutdown: {}

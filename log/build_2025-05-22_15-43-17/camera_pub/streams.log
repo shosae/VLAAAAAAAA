@@ -1,0 +1,21 @@
+[5.024s] Invoking command in '/home/soda/VLAA/src/camera_pub': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/soda/VLAA/build/camera_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soda/VLAA/install/camera_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_pub build --build-base /home/soda/VLAA/build/camera_pub/build install --record /home/soda/VLAA/build/camera_pub/install.log --single-version-externally-managed install_data
+[5.923s] running egg_info
+[5.971s] writing ../../build/camera_pub/camera_pub.egg-info/PKG-INFO
+[5.973s] writing dependency_links to ../../build/camera_pub/camera_pub.egg-info/dependency_links.txt
+[5.973s] writing entry points to ../../build/camera_pub/camera_pub.egg-info/entry_points.txt
+[5.973s] writing requirements to ../../build/camera_pub/camera_pub.egg-info/requires.txt
+[5.974s] writing top-level names to ../../build/camera_pub/camera_pub.egg-info/top_level.txt
+[6.051s] reading manifest file '../../build/camera_pub/camera_pub.egg-info/SOURCES.txt'
+[6.053s] writing manifest file '../../build/camera_pub/camera_pub.egg-info/SOURCES.txt'
+[6.053s] running build
+[6.053s] running build_py
+[6.054s] running install
+[6.063s] running install_lib
+[6.103s] running install_data
+[6.104s] running install_egg_info
+[6.145s] removing '/home/soda/VLAA/install/camera_pub/lib/python3.10/site-packages/camera_pub-0.0.0-py3.10.egg-info' (and everything under it)
+[6.145s] Copying ../../build/camera_pub/camera_pub.egg-info to /home/soda/VLAA/install/camera_pub/lib/python3.10/site-packages/camera_pub-0.0.0-py3.10.egg-info
+[6.147s] running install_scripts
+[6.299s] Installing camera_publisher_node script to /home/soda/VLAA/install/camera_pub/lib/camera_pub
+[6.300s] writing list of installed files to '/home/soda/VLAA/build/camera_pub/install.log'
+[6.425s] Invoked command in '/home/soda/VLAA/src/camera_pub' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/soda/VLAA/build/camera_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soda/VLAA/install/camera_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_pub build --build-base /home/soda/VLAA/build/camera_pub/build install --record /home/soda/VLAA/build/camera_pub/install.log --single-version-externally-managed install_data
